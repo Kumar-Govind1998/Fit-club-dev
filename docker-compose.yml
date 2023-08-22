@@ -1,0 +1,9 @@
+version: "3"
+services:
+  fit:
+    image: fit_image
+    build: .
+    container_name: fit_container
+    ports:
+      - "3000:3000"
+
